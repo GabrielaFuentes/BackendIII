@@ -1,6 +1,6 @@
 # Proyecto de CoderHouse Adoptame
 
-**BackendIII - Proyecto Final**
+## **BackendIII - Proyecto Final**
 
 Este proyecto corresponde a la segunda entrega del curso **Backend 3** en la carrera **FullStack** de **CoderHouse**. Su objetivo principal es desarrollar una **API funcional y escalable** que siga buenas prácticas de desarrollo, incorpore **pruebas automatizadas** y permita su **despliegue mediante Docker**.
 
@@ -19,7 +19,7 @@ Puedes encontrar la imagen de Docker para este proyecto en mi perfil de Docker H
 
 ### Instrucciones para ejecutar el contenedor
 
-1. Asegúrate de tener Docker instalado en tu máquina. Si no lo tienes, puedes seguir la [guía de instalación de Docker](https://docs.docker.com/get-docker/).
+1. Asegúrate de tener **Docker** instalado en tu máquina. Si no lo tienes, puedes seguir la [guía de instalación de Docker](https://docs.docker.com/get-docker/).
 
 2. Ejecuta el siguiente comando para descargar la imagen de Docker:
 
