@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/adoption.test.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,17 +15,22 @@
     "@faker-js/faker": "^9.2.0",
     "@nestjs/mongoose": "^10.1.0",
     "bcrypt": "^5.1.1",
-    "chai": "^5.1.2",
     "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.8.4",
     "multer": "^1.4.5-lts.1",
     "nodemon": "^3.1.7",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "mocha": "^10.8.2"
+    "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
+    "jest": "^29.7.0",
+    "mocha": "^10.8.2",
+    "mongoose": "^8.9.2",
+    "should": "^13.2.3",
+    "supertest": "^7.0.0"
   }
 }
