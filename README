@@ -1,0 +1,35 @@
+# Proyecto de CoderHouse Adoptame
+
+**BackendIII - Proyecto Final**
+
+Este proyecto corresponde a la segunda entrega del curso **Backend 3** en la carrera **FullStack** de **CoderHouse**. Su objetivo principal es desarrollar una **API funcional y escalable** que siga buenas prácticas de desarrollo, incorpore **pruebas automatizadas** y permita su **despliegue mediante Docker**.
+
+## Tecnologías Utilizadas
+
+- **Node.js**: Entorno de ejecución de JavaScript para construir la API.
+- **Express**: Framework web para Node.js, utilizado para manejar las rutas y la lógica de la API.
+- **Docker**: Herramienta de contenedorización utilizada para crear y gestionar los contenedores de la API.
+- **Pruebas automatizadas**: Uso de frameworks de pruebas como **Jest** o **Mocha** para garantizar la calidad del código.
+
+## Docker Hub
+
+Puedes encontrar la imagen de Docker para este proyecto en mi perfil de Docker Hub:
+
+[https://hub.docker.com/u/gabiita91](https://hub.docker.com/u/gabiita91)
+
+### Instrucciones para ejecutar el contenedor
+
+1. Asegúrate de tener Docker instalado en tu máquina. Si no lo tienes, puedes seguir la [guía de instalación de Docker](https://docs.docker.com/get-docker/).
+
+2. Ejecuta el siguiente comando para descargar la imagen de Docker:
+
+    ```bash
+    docker pull gabiita91/coderhouse
+    ```
+
+3. Una vez descargada la imagen, puedes ejecutar el contenedor con el siguiente comando:
+
+    ```bash
+    docker run -d -p 80:80 gabiita91/coderhouse
+    ```
+
